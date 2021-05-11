@@ -1,1 +1,0 @@
-Put your Sass files here. Organize them so it's easy to find things.
