@@ -38,6 +38,84 @@ body {
   overflow-x: hidden;
 }
 
+@media only screen and (min-width: 1492px) {
+  #block-adchallenge-main-menu {
+    display: inline-block !important;
+    vertical-align: top !important;
+  }
+
+  header {
+    text-align: center !important;
+  }
+
+  header .menu {
+    padding-left: 522px !important;
+    float: initial !important;
+  }
+
+  header .block-system-branding-block {
+    padding-left: 0 !important;
+    float: initial !important;
+  }
+
+  header ul.menu {
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  #challenge-home h2 {
+    font-size: 24px !important;
+  }
+
+  #block-latest-event .container {
+    justify-content: center !important;
+  }
+  #block-latest-event .container .img-left {
+    max-width: 500px !important;
+    width: initial !important;
+  }
+  #block-latest-event .container .content-right {
+    max-width: 570px !important;
+  }
+
+  #block-about-me .container {
+    justify-content: center !important;
+  }
+
+  #block-about-me .content-left {
+    max-width: 420px !important;
+  }
+
+  #block-about-me .img-right {
+    max-width: 610px !important;
+    padding-left: 240px !important;
+  }
+
+  #block-about-me .container .img-right #square1 {
+    left: 100px !important;
+    width: 36% !important;
+  }
+
+  #block-about-me .container .img-right #square2 {
+    left: 550px !important;
+    width: 14% !important;
+    height: 25% !important;
+  }
+
+  #block-adchallenge-content .view-content {
+    justify-content: space-evenly !important;
+  }
+
+  #block-adchallenge-content .views-element-container {
+    margin: auto !important;
+    max-width: 1090px !important;
+  }
+
+  #block-about-me .container .content-left h2, #block-latest-event h2, #block-adchallenge-content > h2:first-child {
+    margin: auto;
+    max-width: 1015px;
+  }
+}
 /*Header*/
 #bMenu {
   width: 50px;
